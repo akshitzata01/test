@@ -14,3 +14,7 @@ steps:
     image: alpine
     commands:
       - echo -n "this-is-a-test" > .tags
+  - name: not update
+    image: alpine
+    commands:
+      - echo -n "this-is-a-test" > .tags
